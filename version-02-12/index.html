@@ -3,33 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>SXE Network | Digital Money by the People, for the People</title>
+<title>SXE Network | Mobile</title>
 <meta name="theme-color" content="#0a000d">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
 <meta name="description" content="SXE Network — Digital money by the people, for the people. A Web3 financial network combining American innovation with Swiss institutional standards.">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta property="og:title" content="SXE Network | Digital Money. By the People, for the People.">
 <meta property="og:description" content="A Web3 financial network combining American innovation with Swiss institutional standards to serve humanity through inclusion, dignity, and shared economic agency.">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://sxevault.com">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 81 82'%3E%3Cpath fill='%23B49B57' d='M40.5,82C18.2,82,0,63.8,0,41.5S18.2,1,40.5,1S81,19.1,81,41.5S62.8,82,40.5,82z M40.5,6.2C21.1,6.2,5.2,22,5.2,41.5s15.8,35.3,35.3,35.3s35.3-15.8,35.3-35.3S59.9,6.2,40.5,6.2z'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "SXE Network",
-  "url": "https://shakticoin.com",
-  "description": "A Web3 financial network that combines American innovation with Swiss institutional standards.",
-  "email": "invest@shakticoin.com"
-}
-</script>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 81 82'%3E%3Cpath fill='%23B89B72' d='M40.5,82C18.2,82,0,63.8,0,41.5S18.2,1,40.5,1S81,19.1,81,41.5S62.8,82,40.5,82z M40.5,6.2C21.1,6.2,5.2,22,5.2,41.5s15.8,35.3,35.3,35.3s35.3-15.8,35.3-35.3S59.9,6.2,40.5,6.2z'/%3E%3C/svg%3E">
 <style>
 /* ==============================================
    LAYER 1: RESET & DESIGN TOKENS
@@ -38,18 +20,18 @@
 
 :root {
     --c-black: #0a000d;
-    --c-gold: #AA9671;
-    --c-bronze: #B49B57;
-    --c-beige: #F7F7F7;
-    --c-green: #89AB9A;
+    --c-gold: #B89B72;
+    --c-bronze: #8C7352;
+    --c-beige: #EAE8E6;
+    --c-green: #8FBC8F;
     --c-text-primary: #2C2C2C;
     --c-text-muted: #555555;
-    --c-gold-matte: #AA9671;
+    --c-gold-matte: #D4C5A9;
     --c-green-matte: #9FBFA0;
     --c-white: #FFFFFF;
     --c-muted: #888888;
     --c-muted-dark: #666666;
-    --font-main: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --header-h: 2.25rem;
     --footer-h: 3rem;
     --panel-side-padding: 1.25rem;
@@ -104,13 +86,12 @@ html, body {
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    background: #000000;
+    background: #050505;
     border: none;
     border-top: 1px solid var(--c-gold);
     border-radius: 0;
     z-index: 100;
     box-sizing: border-box;
-    pointer-events: auto;
 }
 
 #slide-title-display { display: none; }
@@ -122,8 +103,8 @@ html, body {
 .nav-btn {
     width: 2.25rem;
     height: 2.25rem;
-    min-width: 44px;
-    min-height: 44px;
+    min-width: 36px;
+    min-height: 36px;
     border: 1px solid rgba(255,255,255,0.3);
     border-radius: 0.5rem;
     background: transparent;
@@ -134,12 +115,8 @@ html, body {
     align-items: center;
     justify-content: center;
     -webkit-tap-highlight-color: transparent;
-    -webkit-user-select: none;
-    user-select: none;
     touch-action: manipulation;
     transition: background 0.15s, color 0.15s, border-color 0.15s;
-    position: relative;
-    z-index: 10;
 }
 
 .nav-btn:active {
@@ -185,9 +162,9 @@ html, body {
     pointer-events: none;
 }
 .brand-watermark svg { width: 100%; height: 100%; display: block; }
-#left-ring { fill: #AA9671; opacity: 0.106; }
-#right-ring { fill: #AA9671; opacity: 0.116; }
-#outer-ring { fill: #AA9671; opacity: 0.07; }
+#left-ring { fill: #B89B72; opacity: 0.106; }
+#right-ring { fill: #B89B72; opacity: 0.116; }
+#outer-ring { fill: #B89B72; opacity: 0.07; }
 
 /* --- Slides --- */
 .slide {
@@ -198,8 +175,7 @@ html, body {
     padding-top: calc(var(--header-h) + env(safe-area-inset-top, 0px));
     padding-bottom: calc(var(--footer-h) + env(safe-area-inset-bottom, 0px) + 0.5rem);
     overflow-y: auto;
-    position: relative;
-    z-index: 1;
+    -webkit-overflow-scrolling: touch;
 }
 
 .slide.active {
@@ -237,16 +213,6 @@ html, body {
     text-transform: uppercase;
 }
 
-.timestamp-badge {
-    margin-top: 1.5rem;
-    font-size: 0.55rem;
-    letter-spacing: 0.15em;
-    color: var(--c-gold);
-    opacity: 0.6;
-    border-top: 1px solid rgba(170, 150, 113, 0.3);
-    padding-top: 0.75rem;
-}
-
 /* --- Panels --- */
 .left-panel {
     background: var(--c-beige);
@@ -262,7 +228,6 @@ html, body {
     padding: 1.25rem;
     width: 100%;
     flex: none;
-    counter-reset: rp-item;
 }
 
 .right-panel-inner {
@@ -363,35 +328,10 @@ h1 .period {
     gap: 0.75rem;
 }
 
-.right-panel .rp-grid-item {
-    counter-increment: rp-item;
-    position: relative;
-}
-
-.right-panel .rp-grid-item::after {
-    content: counter(rp-item);
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--c-gold);
-    opacity: 0.15;
-    line-height: 1;
-}
-
 .rp-grid-item {
     padding: 1rem;
     border-top: 2px solid var(--c-gold-matte);
     background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.financial-breakdown {
-    align-items: stretch;
 }
 
 .rp-label {
@@ -407,17 +347,16 @@ h1 .period {
 .rp-display {
     font-size: 1.25rem;
     font-weight: 300;
-    color: var(--c-bronze);
+    color: var(--c-white);
     line-height: 1.2;
 }
 
 .rp-display.display-size-md { font-size: 1rem; }
-.rp-display.display-mega { font-size: 2.5rem; color: var(--c-bronze); }
+.rp-display.display-mega { font-size: 2.5rem; color: var(--c-gold); }
 
 .rp-desc {
     font-size: 0.75rem;
-    font-weight: 300;
-    color: #FFFFFF;
+    color: rgba(255,255,255,0.5);
     margin-top: 0.5rem;
     line-height: 1.4;
 }
@@ -433,7 +372,7 @@ h1 .period {
 .sxe4-est { font-size: 0.7rem; letter-spacing: 0.3em; color: var(--c-gold); margin-top: 1rem; }
 
 /* --- Swiss Grid --- */
-.swiss-grid { margin-top: 0.75rem; counter-reset: swiss-item; }
+.swiss-grid { margin-top: 0.75rem; }
 .swiss-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -442,27 +381,15 @@ h1 .period {
     border-top: 1px solid rgba(0,0,0,0.1);
 }
 .swiss-row:first-child { border-top: none; }
-.swiss-row > div { counter-increment: swiss-item; position: relative; }
-.swiss-row > div::after {
-    content: counter(swiss-item);
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--c-bronze);
-    opacity: 0.20;
-    line-height: 1;
-}
 .swiss-head { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 0.25rem; }
 .swiss-body { font-size: 0.8rem; line-height: 1.4; color: var(--c-text-muted); }
 
 /* --- Metrics --- */
 .metric-value-xl { font-size: 1.75rem; font-weight: 400; color: var(--c-black); }
 .metric-value-lg { font-size: 1.25rem; font-weight: 400; color: var(--c-white); }
-.metric-label-gold { font-size: 0.6rem; font-weight: 500; text-transform: uppercase; color: var(--c-muted); border-top: 2px solid var(--c-gold); padding-top: 0.5rem; margin-top: 0.25rem; }
-.metric-label-green { font-size: 0.6rem; font-weight: 500; text-transform: uppercase; color: var(--c-muted); border-top: 2px solid var(--c-green); padding-top: 0.5rem; margin-top: 0.25rem; }
-.metric-label-neutral { font-size: 0.6rem; font-weight: 500; text-transform: uppercase; color: var(--c-muted); border-top: 2px solid var(--c-muted); padding-top: 0.5rem; margin-top: 0.25rem; }
+.metric-label-gold { font-size: 0.6rem; font-weight: 600; text-transform: uppercase; color: var(--c-muted); border-top: 2px solid var(--c-gold); padding-top: 0.5rem; margin-top: 0.25rem; }
+.metric-label-green { font-size: 0.6rem; font-weight: 600; text-transform: uppercase; color: var(--c-muted); border-top: 2px solid var(--c-green); padding-top: 0.5rem; margin-top: 0.25rem; }
+.metric-label-neutral { font-size: 0.6rem; font-weight: 600; text-transform: uppercase; color: var(--c-muted); border-top: 2px solid var(--c-muted); padding-top: 0.5rem; margin-top: 0.25rem; }
 
 .grid-fixed-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 
@@ -472,7 +399,6 @@ h1 .period {
     flex-direction: column;
     gap: 0.5rem;
     margin-top: 1rem;
-    counter-reset: team-item;
 }
 
 .swedish-grid-item {
@@ -481,20 +407,6 @@ h1 .period {
     gap: 1rem;
     padding: 1rem 0;
     border-top: 1px solid rgba(0,0,0,0.1);
-    counter-increment: team-item;
-    position: relative;
-}
-
-.swedish-grid-item::after {
-    content: counter(team-item);
-    position: absolute;
-    top: 0.75rem;
-    right: 0;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--c-gold);
-    opacity: 0.20;
-    line-height: 1;
 }
 
 .team-headshot {
@@ -590,11 +502,22 @@ h1 .period {
 .yield-seg-gold { background: var(--c-gold); opacity: 0.8; }
 .yield-seg-green { background: var(--c-green); }
 
+/* Full bleed mode — vertical stack everywhere */
+.rp-grid-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.rp-grid-stack > div {
+    padding: 1rem;
+    border-top: 2px solid var(--c-gold-matte);
+    background: linear-gradient(180deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%);
+}
 
 /* ==============================================
    LAYER 3: MOBILE LANDSCAPE
    ============================================== */
-@media (orientation: landscape) and (max-height: 500px) and (max-width: 768px) {
+@media (orientation: landscape) and (max-height: 500px) {
     :root {
         --header-h: 2rem;
         --footer-h: 2.5rem;
@@ -610,6 +533,7 @@ h1 .period {
     .slide {
         flex-direction: row;
         overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
     }
     .slide .left-panel { width: 55%; flex: none; overflow-y: auto; }
     .slide .right-panel { width: 45%; flex: none; overflow-y: auto; }
@@ -624,8 +548,8 @@ h1 .period {
     .nav-btn {
         width: 2.25rem;
         height: 2.25rem;
-        min-width: 44px;
-        min-height: 44px;
+        min-width: 36px;
+        min-height: 36px;
         font-size: 1rem;
     }
     .slide-counter { font-size: 0.65rem; min-width: 2.75rem; }
@@ -639,7 +563,7 @@ h1 .period {
         --header-h: 4.9375rem;
         --footer-h: 5.5625rem;
         --panel-side-padding: clamp(2.5rem, 6vw, 6.25rem);
-        --card-padding: clamp(1.5rem, 4vw, 2.75rem);
+        --card-padding: clamp(1.875rem, 4vw, 3.125rem);
         --rp-padding: 2.25rem;
     }
     
@@ -678,31 +602,24 @@ h1 .period {
     #slide-title-display { display: block; justify-self: start; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.04em; color: var(--c-gold); }
     .meta-data { opacity: 0.50; font-weight: 400; margin-right: 0.25rem; }
     .version-tag { display: block; justify-self: end; font-size: 0.75rem; color: var(--c-gold); }
-    .center-stack { display: flex; position: relative; width: 35px; height: 36px; align-items: center; justify-content: center; margin-inline: 2rem; }
-    .fullscreen-trigger { width: 100%; height: 100%; background: #6622D8; border: none; border-radius: 6px; padding: 0; color: #FFFFFF; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .center-stack { display: flex; position: relative; width: 3rem; height: 3rem; align-items: center; justify-content: center; margin-inline: 2rem; }
+    .fullscreen-trigger { width: 100%; height: 100%; background: none; border: none; padding: 0; color: var(--c-gold); cursor: pointer; display: flex; align-items: center; justify-content: center; }
     .fullscreen-trigger svg { width: 1.25rem; height: 1.25rem; fill: currentColor; }
-    .email-link { display: block; position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); padding: 0.25rem 0.75rem; color: #FFFFFF; font-size: 0.65rem; text-decoration: none; opacity: 0; pointer-events: none; }
+    .email-link { display: block; position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); padding: 0.25rem 0.75rem; color: var(--c-gold); font-size: 0.65rem; text-decoration: none; opacity: 0; pointer-events: none; }
     .center-stack:hover .email-link { opacity: 1; pointer-events: auto; }
     .slide-counter { display: none; }
-    .slide[aria-label*="Slide 2"] .rp-display,
-    .slide[aria-label*="Slide 3"] .rp-display,
-    .slide[aria-label*="Slide 12"] .rp-display { color: #FFFFFF; }
-    .slide[aria-label*="Slide 3"] .rp-desc { color: var(--c-gold); }
-    .slide[aria-label*="Slide 2"] .rp-grid-item { padding: 1.5rem; }
-    .slide[aria-label*="Slide 2"] .rp-display { line-height: 1.6; }
-    .slide[aria-label*="Slide 14"] .rp-display { white-space: nowrap; }
-    .slide[aria-label*="Slide 16"] .display-mega { font-weight: 700; letter-spacing: -0.04em; color: var(--c-gold); }
     
-    .slide-container { position: relative; overflow: hidden; width: 89vw; height: 89vh; min-height: auto; max-width: 1600px; max-height: 900px; box-shadow: 0 3.125rem 6.25rem rgba(0,0,0,0.5); -webkit-mask-image: -webkit-radial-gradient(white, black); contain: layout paint; border-radius: 0.001px; isolation: isolate; }
-    .slide { height: 100%; min-height: 0; padding: 0; overflow: clip; contain: layout paint; isolation: isolate; -webkit-mask-image: -webkit-radial-gradient(white, black); position: static; z-index: auto; }
-    .slide-container .slide.active { display: grid; grid-template-columns: 1.3fr 0.7fr; align-items: stretch; }
-    .slide-container .slide.title-slide.active { display: flex; }
-    .slide-container .slide.active[data-team="true"] { grid-template-columns: 1fr; }
+    .slide-container { position: relative; overflow: hidden; width: 89vw; height: 89vh; min-height: auto; max-width: 1600px; max-height: 900px; box-shadow: 0 3.125rem 6.25rem rgba(0,0,0,0.5); }
+    .slide { height: 100%; min-height: auto; padding: 0; overflow: hidden; }
+    .slide.active { display: grid; grid-template-columns: 1.3fr 0.7fr; align-items: stretch; }
+    .slide.title-slide.active { display: flex; }
+    .slide.active[data-team="true"] { grid-template-columns: 1fr; }
     
-    .left-panel { height: 100%; min-height: 0; max-height: 100%; overflow-y: auto; overflow-x: clip; padding: calc(var(--header-h) + 1rem) var(--panel-side-padding) 2.5rem var(--panel-side-padding); display: flex; flex-direction: column; justify-content: flex-start; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); position: relative; -ms-overflow-style: none; scrollbar-width: none; }
-    .right-panel { height: 100%; min-height: 0; max-height: 100%; overflow-y: auto; overflow-x: clip; padding: var(--rp-padding); padding-top: calc(var(--header-h) + 1rem); padding-bottom: 2.5rem; display: flex; flex-direction: column; justify-content: flex-start; border-left: 1px solid rgba(255,255,255,0.05); -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0); -webkit-mask-image: -webkit-radial-gradient(white, black); position: relative; -ms-overflow-style: none; scrollbar-width: none; }
-    .right-panel-inner { flex: 1 1 0%; min-height: 0; display: flex; flex-direction: column; justify-content: center; overflow: clip; -webkit-mask-image: -webkit-radial-gradient(white, black); }
+    .left-panel { height: 100%; overflow-y: auto; padding: calc(var(--header-h) + 1rem) var(--panel-side-padding) 2.5rem var(--panel-side-padding); display: flex; flex-direction: column; justify-content: flex-start; }
+    .right-panel { height: 100%; overflow-y: auto; padding: var(--rp-padding); padding-top: calc(var(--header-h) + 1rem); padding-bottom: 110px; display: flex; flex-direction: column; justify-content: flex-start; border-left: 1px solid rgba(255,255,255,0.05); }
+    .right-panel-inner { flex: 1; display: flex; flex-direction: column; justify-content: center; }
     .left-panel::-webkit-scrollbar, .right-panel::-webkit-scrollbar { display: none; }
+    .left-panel, .right-panel { -ms-overflow-style: none; scrollbar-width: none; }
     
     h1 { font-size: 2.75rem; line-height: 1.0; margin: 0 0 1.875rem 0; letter-spacing: -0.025em; }
     h1 > span:not(.period) { display: block; }
@@ -713,12 +630,11 @@ h1 .period {
     .bullet-list li { font-size: 1rem; margin-bottom: 0.9375rem; line-height: 1.6; }
     
     .interface-card { background: #1c1f24; padding: var(--card-padding); gap: 2rem; }
-    .rp-grid-item { padding: 2rem; border: 1px solid rgba(255, 255, 255, 0.05); border-top: 2px solid var(--c-gold-matte); overflow: hidden; }
-    .right-panel .rp-grid-item::after { font-size: 1rem; top: calc(0.5rem + 1.5px); right: 0.75rem; font-weight: 400; }
-    .rp-label { font-size: 0.7rem; font-weight: 400; letter-spacing: 0.12em; margin-bottom: 0.75rem; }
-    .rp-display { font-size: clamp(1.75rem, 3.5vw, 3.5rem); max-width: 100%; }
+    .rp-grid-item { padding: 2rem; border: 1px solid rgba(255, 255, 255, 0.05); border-top: 2px solid var(--c-gold-matte); }
+    .rp-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; margin-bottom: 0.75rem; }
+    .rp-display { font-size: clamp(2.5rem, 4vw, 3.5rem); letter-spacing: -0.03em; }
     .rp-display.display-size-md { font-size: 1.5rem; }
-    .rp-display.display-mega { font-size: clamp(2.5rem, 5.5vw, 5rem); }
+    .rp-display.display-mega { font-size: 5rem; }
     .rp-desc { font-size: 0.9rem; line-height: 1.5; }
     
     .sxe4-frame { padding: 3rem 2.5rem; border-width: 2px; }
@@ -732,67 +648,37 @@ h1 .period {
     .slide[data-team="true"] h1 > span:not(.period) { display: inline; }
     .rp-grid-team-custom { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2.5rem 2rem; }
     .team-desc { font-size: 0.85rem; line-height: 1.5; margin-top: 0.4rem; }
-    .swedish-grid-item::after { font-size: 1rem; top: calc(0.5rem + 1.5px); font-weight: 600; }
     
     .brand-watermark { width: clamp(292px, 51.8vmin, 680px); height: clamp(292px, 51.8vmin, 680px); }
     
     .hero-logo { font-size: clamp(2.5rem, 8vw, 5rem); letter-spacing: -0.03em; }
     .hero-tagline { font-size: clamp(0.75rem, 2vw, 1.125rem); letter-spacing: 0.12em; }
-    .timestamp-badge { font-size: 0.7rem; letter-spacing: 0.18em; margin-top: 2rem; }
+    
+    .rp-grid-stack { gap: 4rem; }
     
     /* Slide 12 pattern: card stretches full panel, items distribute evenly */
     .slide[aria-label*="Slide 12"] .right-panel-inner { justify-content: flex-start; }
-    .slide[aria-label*="Slide 12"] .interface-card { flex: 1 1 0%; min-height: 0; display: flex; flex-direction: column; }
+    .slide[aria-label*="Slide 12"] .interface-card { flex: 1; display: flex; flex-direction: column; }
     .slide[aria-label*="Slide 12"] .rp-grid-list { flex: 1; justify-content: space-evenly; }
     /* Slide 14 pattern: match slide 12 top-align */
     .slide[aria-label*="Slide 14"] .right-panel-inner { justify-content: flex-start; }
-    .slide[aria-label*="Slide 14"] .interface-card { flex: 1 1 0%; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
-    .slide[aria-label*="Slide 14"] .body-copy { line-height: 1.4; }
-    .slide[aria-label*="Slide 14"] .bullet-list li { letter-spacing: -0.02em; margin-bottom: 0.75rem; }
-    .slide[aria-label*="Slide 14"] .manifesto { line-height: 1.3; }
+    .slide[aria-label*="Slide 14"] .interface-card { flex: 1; display: flex; flex-direction: column; justify-content: center; }
     /* Slide 19 pattern: match slide 12 top-align */
     .slide[aria-label*="Slide 19"] .right-panel-inner { justify-content: flex-start; }
-    .slide[aria-label*="Slide 19"] .interface-card { flex: 1 1 0%; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
+    .slide[aria-label*="Slide 19"] .interface-card { flex: 1; display: flex; flex-direction: column; justify-content: center; }
     .rp-grid-list { gap: 1.5rem; }
     .swiss-grid { margin-top: 1.5rem; }
     .swiss-row { padding: 1.25rem 0; }
     .swiss-head { font-size: 0.7rem; }
     .swiss-body { font-size: 0.9rem; }
-    .slide[aria-label*="Slide 12"] .swiss-head { font-size: 1.2rem; }
-    .slide[aria-label*="Slide 12"] .swiss-body { font-size: 1.0rem; }
-    .swiss-row > div::after { font-size: 1rem; font-weight: 600; }
     .metric-value-xl { font-size: 2.5rem; }
     
     /* Slide 11: beneficiary image fills 79% of right panel, label at bottom */
-    .beneficiary-card { min-height: 79%; flex: none; height: 79%; align-items: flex-end; justify-content: center; padding-bottom: 0.75rem; }
+    .beneficiary-card { min-height: 79%; flex: none; height: 79%; align-items: flex-end; justify-content: center; }
     .beneficiary-card .beneficiary-frame { display: none; }
-    .beneficiary-label { padding-bottom: 0; }
-    .beneficiary-label .rp-display.text-2rem { font-size: 2rem; font-weight: 600; }
+    .beneficiary-label { padding-bottom: 1.5rem; }
+    .beneficiary-label .rp-display.text-2rem { font-size: 2rem; }
     
-    /* --- Safari 26.x right-panel bleed fix (2026-02-18, peer-reviewed 2026-02-20) ---
-       
-       Problem: WebKit's Liquid Glass pipeline fails to clip overflow-y:auto 
-       children inside CSS Grid tracks with align-items:stretch.
-       
-       Root causes addressed:
-       1. Grid/flex children default to min-height:auto — can't shrink below
-          content height, making overflow:clip ineffective.
-       2. Safari doesn't honor overflow:hidden on grid containers when followed
-          by overflow:clip — use clip ONLY.
-       3. contain:style unsupported in Safari — removed, kept layout+paint.
-       4. -webkit-mask-image must be on the grid container (.slide) itself,
-          not just on children, to force Safari's compositor to clip at the
-          grid boundary.
-       5. Excessive padding-bottom (was 110px) inflated scroll area beyond
-          grid track — reduced to 2.5rem.
-       6. position:relative on panels establishes containing blocks for
-          positioned descendants (counter pseudo-elements).
-       7. max-height:100% + min-height:0 belt-and-suspenders on panels.
-       8. Removed global letter-spacing:-0.03em from .rp-display — caused
-          Safari text rendering artifacts at display-mega sizes.
-       
-       Also fixed: iPhone nav buttons not responding (see JS section). */
-
     /* --- Fullbleed slides: hide header, reclaim space --- */
     .slide-container.is-fullbleed .framework-header { display: none; }
     .slide-container.is-fullbleed .slide.active .left-panel { padding-top: 1.5rem; }
@@ -847,28 +733,16 @@ h1 .period {
    ============================================== */
 @media print {
     body { background: #fff; color: #000; overflow: visible; }
-    .slide-container { width: 100%; max-width: none; max-height: none; height: auto; box-shadow: none; overflow: visible; position: static; }
-    .slide { display: grid !important; grid-template-columns: 1.3fr 0.7fr; height: auto; min-height: auto; page-break-after: always; break-after: page; page-break-inside: avoid; break-inside: avoid; overflow: visible; position: static; }
+    .slide-container { width: 100%; max-width: none; max-height: none; height: auto; box-shadow: none; overflow: visible; }
+    .slide { display: grid !important; grid-template-columns: 1.3fr 0.7fr; height: auto; min-height: auto; page-break-after: always; break-after: page; overflow: visible; }
     .slide:not(.active) { display: grid !important; }
-    .slide.title-slide { grid-template-columns: 1fr; }
-    .slide[data-team="true"] { grid-template-columns: 1fr; }
-    .slide.full-bleed-mode { grid-template-columns: 1.3fr 0.7fr; }
-    .left-panel, .right-panel { height: auto; overflow: visible; padding: 1rem; position: static; }
-    .left-panel { background: #fff; }
-    .right-panel { background: #f5f5f5; }
+    .left-panel, .right-panel { height: auto; overflow: visible; padding: 1rem; }
     .framework-header, .footer-bar, .skip-link, .brand-watermark { display: none; }
     .interface-card { background: #f5f5f5; border: 1px solid #ccc; }
-    .right-panel-inner { height: auto; overflow: visible; }
     .rp-display, h1, .manifesto, .body-copy, .rp-label, .rp-desc { color: #000; }
-    .cta-closing { color: #000; font-size: 1.25rem; margin-top: 1.5rem; }
+    .cta-closing { color: #000; font-size: 1.25rem; }
     .cta-closing .cta-body { color: #000; }
     .text-gold, .text-green, .text-gold-important { color: #000; }
-    .swiss-grid { margin-top: 0.75rem; }
-    .swiss-row { padding: 0.5rem 0; gap: 0.75rem; page-break-inside: avoid; break-inside: avoid; }
-    .swiss-head, .swiss-body { color: #000; }
-    .metric-value-xl, .metric-value-lg { color: #000; }
-    .metric-label-gold, .metric-label-green, .metric-label-neutral { color: #333; }
-    .bullet-list li { page-break-inside: avoid; break-inside: avoid; }
     * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
 </style>
@@ -892,7 +766,6 @@ h1 .period {
         <div class="title-content">
             <div class="hero-logo">ShaktiCoin (SXE)</div>
             <div class="hero-tagline">DIGITAL MONEY. BY THE PEOPLE, FOR THE PEOPLE</div>
-            <div class="timestamp-badge" style="display:none;">SOURCE OF TRUTH — FEBRUARY 18, 2026</div>
         </div>
     </div>
 
@@ -924,7 +797,7 @@ h1 .period {
                         </div>
                         <div class="rp-grid-item">
                             <span class="rp-label">BANKING</span>
-                            <div class="rp-display display-size-md">US FINANCIAL COMPLIANCE</div>
+                            <div class="rp-display display-size-md">FINANCIAL COMPLIANCE, USA</div>
                         </div>
                     </div>
                 </div>
@@ -1026,7 +899,7 @@ h1 .period {
     <div aria-label="Slide 6/19: OPPORTUNITY" class="slide" data-title="Opportunity" role="region" tabindex="-1">
         <div class="left-panel">
             <h1>Satoshi's <span>Second Act<span class="period">■</span></span></h1>
-            <div class="manifesto">SXE doesn’t replace fiat currencies or Bitcoin. It makes money work better. We reduce friction and let value reach people directly.</div>
+            <div class="manifesto">SXE doesn’t replace fiat or Bitcoin. It makes money work better. We reduce friction and let value reach people directly.</div>
             <div class="body-copy">
                 <p>The total addressable market is not the crypto market cap of ~$3T; it is the global M2 money supply of $120T+—and growing. At this scale, we are called to build open, neutral financial rails that empower families, respect communities, and honor the sovereignty of nations.</p>
                 <ul class="bullet-list">
@@ -1060,7 +933,7 @@ h1 .period {
                 <p>SXE, a financial system that stops value stripping and restores continuity, trust, and economic coherence.</p>
                 <ul class="bullet-list">
                     <li><strong>The Barrier:</strong> Complexity is the enemy of adoption.</li>
-                    <li><strong>The SXE Rail:</strong> We strip away the layers. No value stripping bridges. No smart contract risk. Just a direct rail to financial sovereignty.</li>
+                    <li><strong>The SXE Rail:</strong> We strip away the layers. No bridges. No smart contract risk. Just a direct rail to financial sovereignty.</li>
                 </ul>
             </div>
         </div>
@@ -1098,7 +971,7 @@ h1 .period {
                     <div class="rp-grid-item">
                         <span class="rp-label">THE MINING RIG</span>
                         <div class="rp-display display-mega">HUMAN</div>
-                        <div class="rp-desc">The only renewable resource that<br/>matters—and compounds.</div>
+                        <div class="rp-desc">The only renewable resource that matters—and compounds.</div>
                     </div>
                 </div>
             </div>
@@ -1133,8 +1006,8 @@ h1 .period {
 
     <div aria-label="Slide 10/19: WHAT WE HAVE ACHIEVED" class="slide" data-title="What We Have Achieved" role="region" tabindex="-1">
         <div class="left-panel">
-            <h1>Direct Rail <span>Is Built<span class="period">■</span></span></h1>
-            <div class="manifesto">We did not just write a whitepaper. We built a transparent monetary and economic architecture of sovereign, family-centered economic units—anchored in democratic public law, operationalized through code, and validated through over three years of testing.</div>
+            <h1>Bridge <span>Is Built<span class="period">■</span></span></h1>
+            <div class="manifesto">We did not just write a whitepaper. We built a transparent monetary and economic architecture of family-centered sovereign economic units (families)—anchored in democratically grounded public law, operationalized through code, and validated through more than three years of testing.</div>
             <div class="body-copy">
                 <p>The infrastructure is built. The legal rails are laid. The network is live.</p>
                 <ul class="bullet-list">
@@ -1149,7 +1022,7 @@ h1 .period {
                 <div class="interface-card">
                     <div class="rp-grid-item">
                         <span class="rp-label">JURISDICTIONAL BRIDGE</span>
-                        <div class="rp-display">SWISS<br/><span style="color:#F7F7F7">USA</span></div>
+                        <div class="rp-display">SWISS<br/><span class="text-gold-important">USA</span></div>
                         <div class="rp-desc">Built from day one to connect humanity with the world's leading financial centers.</div>
                     </div>
                 </div>
@@ -1190,10 +1063,10 @@ h1 .period {
             <div class="swiss-grid">
                 <div class="swiss-row">
                     <div><div class="swiss-head">PoE PROTOCOL</div><div class="swiss-body">Engineered a protocol that monetizes verified human effort into a global, fungible digital asset</div></div>
-                    <div><div class="swiss-head">SOVEREIGN WALLET</div><div class="swiss-body">Deployed a user-friendly, self-custodial wallet that preserves individual financial agency.</div></div>
+                    <div><div class="swiss-head">GLOBAL CAPITAL ENGINE</div><div class="swiss-body">Architected a permissionless digital note infrastructure aligned at the protocol level with the Swiss regulatory framework.</div></div>
                 </div>
                 <div class="swiss-row">
-                    <div><div class="swiss-head">GLOBAL CAPITAL ENGINE</div><div class="swiss-body">Architected a permissionless digital note infrastructure aligned at the protocol level with the Swiss regulatory framework.</div></div>
+                    <div><div class="swiss-head">SOVEREIGN WALLET</div><div class="swiss-body">Deployed a user-friendly, self-custodial wallet that preserves individual financial agency.</div></div>
                     <div><div class="swiss-head">DeFi RAIL</div><div class="swiss-body">Engineered a P2P DeFi infrastructure for direct settlement, linking consumers and enterprises through institutional-grade compliance.</div></div>
                 </div>
                 <div class="swiss-row swiss-row-bordered">
@@ -1208,7 +1081,7 @@ h1 .period {
                     <div class="rp-grid-list">
                         <div class="rp-grid-item">
                             <span class="rp-label">POSITIONING</span>
-                            <div class="rp-display display-size-md">OPEN DeFi DIRECT</div>
+                            <div class="rp-display display-size-md">OPEN DeFi BRIDGE</div>
                         </div>
                         <div class="rp-grid-item">
                             <span class="rp-label">USER EXPERIENCE</span>
@@ -1265,7 +1138,7 @@ h1 .period {
                     <li><strong>Circle of Influence:</strong> Wallet holders to act as micro-CEOs, exercising economic agency through P2P liquidity provision and peer onboarding, enabling both participants and the network to grow in tandem.</li>
                     <li><strong>Frictionless Ecosystem:</strong> Provides a zero-gatekeeper environment that supports real-time value exchange anchored to verified human effort.</li>
                     <li><strong>Exponential Utility:</strong> Leverages a “mass adoption” model in which growth is driven by P2P participation, with participants incentivized on equal footing to contribute to the governance of the Web3 economy.</li>
-                    <li><strong>Sovereign Infrastructure:</strong> Grows in value with network effects, as the efforts of all school-going children are measured equally, monetized transparently, and recognized with dignity worldwide.</li>
+                    <li><strong>Sovereign Infrastructure:</strong> Grows in value through network effects, grounded in the principle that the efforts of all school-going children are measured equally, monetized transparently, and recognized with equal dignity worldwide.</li>
                 </ul>
             </div>
         </div>
@@ -1330,36 +1203,30 @@ h1 .period {
         <div class="right-panel">
             <div class="right-panel-inner">
                 <div class="interface-card">
-                    <div class="rp-grid-list">
-                        <div class="rp-grid-item">
-                            <span class="rp-label">TOTAL RETURN</span>
-                            <div class="rp-display display-mega">166%</div>
+                    <div class="rp-grid-item financial-breakdown">
+                        <div class="mb-sm">
+                            <span class="rp-label text-green ls-wide">PROJECTED EXIT VALUE</span>
+                            <div class="rp-display">$13.2M</div>
+                            <div class="opacity-70">ON $5M PRINCIPAL</div>
                         </div>
-                        <div class="rp-grid-item financial-breakdown">
-                            <div class="mb-sm">
-                                <span class="rp-label text-green ls-wide">PROJECTED EXIT VALUE</span>
-                                <div class="rp-display">$13.2M</div>
-                                <div class="opacity-70">ON $5M PRINCIPAL</div>
+                        <div class="equity-content-col">
+                            <div class="yield-bar-container">
+                                <div class="yield-bar-segment w-37 yield-seg-gold"></div>
+                                <div class="yield-bar-segment w-63 yield-seg-green"></div>
                             </div>
-                            <div class="equity-content-col">
-                                <div class="yield-bar-container">
-                                    <div class="yield-bar-segment w-37 yield-seg-gold"></div>
-                                    <div class="yield-bar-segment w-63 yield-seg-green"></div>
-                                </div>
-                                <div>
-                                    <span class="text-gold">Principal ($5M)</span>
-                                    <span class="text-green">Net Profit (+$8.2M)</span>
-                                </div>
+                            <div>
+                                <span class="text-gold">Principal ($5M)</span>
+                                <span class="text-green">Net Profit (+$8.2M)</span>
                             </div>
-                            <div class="card-section-divider">
-                                <div>
-                                    <div>Cash<br/>Interest</div>
-                                    <div class="metric-value-lg">$4.6M</div>
-                                </div>
-                                <div>
-                                    <div>Equity<br/>Value</div>
-                                    <div class="metric-value-lg">$3.6M</div>
-                                </div>
+                        </div>
+                        <div class="card-section-divider">
+                            <div>
+                                <div>Cash<br/>Interest</div>
+                                <div class="metric-value-lg">$4.6M</div>
+                            </div>
+                            <div>
+                                <div>Equity<br/>Value</div>
+                                <div class="metric-value-lg">$3.6M</div>
                             </div>
                         </div>
                     </div>
@@ -1488,7 +1355,7 @@ h1 .period {
         <div id="slide-title-display"><span class="meta-data">Slide 1/19:</span> Universal Effort = Schooling</div>
         <nav class="nav-cluster">
             <div class="nav-row">
-                <button class="nav-btn" id="btn-prev" aria-label="Previous slide" onclick="if(window.SXE)SXE.prev()">&#8592;</button>
+                <button class="nav-btn" id="btn-prev" aria-label="Previous slide" onclick="SXE&&SXE.prev()">←</button>
                 <span class="slide-counter" aria-live="polite" aria-atomic="true">1 / 19</span>
                 <div class="center-stack">
                     <button class="fullscreen-trigger" aria-label="Toggle fullscreen">
@@ -1496,31 +1363,28 @@ h1 .period {
                     </button>
                     <a class="email-link" href="mailto:invest@shakticoin.com">invest@shakticoin.com</a>
                 </div>
-                <button class="nav-btn" id="btn-next" aria-label="Next slide" onclick="if(window.SXE)SXE.next()">&#8594;</button>
+                <button class="nav-btn" id="btn-next" aria-label="Next slide" onclick="SXE&&SXE.next()">→</button>
             </div>
         </nav>
-        <div class="version-tag">v9.1</div>
+        <div class="version-tag">v8.14</div>
     </footer>
 </div>
 </main>
 
 <script>
-(function() {
-
+var SXE = (function() {
+    'use strict';
     var current = 1;
     var slides = document.querySelectorAll('.slide');
     var total = slides.length;
     var counter = document.querySelector('.slide-counter');
     var titleDisplay = document.getElementById('slide-title-display');
     var slideContainer = document.querySelector('.slide-container');
-    var btnPrev = document.getElementById('btn-prev');
-    var btnNext = document.getElementById('btn-next');
 
-    /* Escape slide titles for safe innerHTML */
     var escapedTitles = [];
     var escDiv = document.createElement('div');
     for (var i = 0; i < slides.length; i++) {
-        escDiv.textContent = slides[i].getAttribute('data-title') || 'Slide';
+        escDiv.textContent = slides[i].dataset.title || 'Slide';
         escapedTitles.push(escDiv.innerHTML);
     }
 
@@ -1534,7 +1398,6 @@ h1 .period {
     }
 
     function show(n) {
-        if (total === 0) return;
         current = n;
         if (current > total) current = 1;
         if (current < 1) current = total;
@@ -1543,7 +1406,7 @@ h1 .period {
         }
         slides[current - 1].classList.add('active');
         if (slideContainer) {
-            if (slides[current - 1].getAttribute('data-fullbleed') === 'true') {
+            if (slides[current - 1].dataset.fullbleed === 'true') {
                 slideContainer.classList.add('is-fullbleed');
             } else {
                 slideContainer.classList.remove('is-fullbleed');
@@ -1551,7 +1414,7 @@ h1 .period {
         }
         if (counter) counter.textContent = current + ' / ' + total;
         if (titleDisplay) titleDisplay.innerHTML = '<span class="meta-data">Slide ' + current + '/' + total + ':</span> ' + escapedTitles[current - 1];
-        window.scrollTo(0, 0);
+        try { window.scrollTo({ top: 0, behavior: 'instant' }); } catch(e) { window.scrollTo(0, 0); }
         try {
             if (window.location.hash !== '#slide-' + current) {
                 history.replaceState(null, '', '#slide-' + current);
@@ -1559,19 +1422,20 @@ h1 .period {
         } catch(e) {}
     }
 
-    function prev() { current = current - 1; show(current); }
-    function next() { current = current + 1; show(current); }
+    function changeSlide(n) {
+        current = current + n;
+        show(current);
+    }
 
-    /* Nav buttons — simple onclick, no touchstart/pointerdown complexity.
-       The 300ms iOS tap delay is gone since iOS 9.3 when viewport meta
-       includes width=device-width (which this page has). */
-    if (btnPrev) btnPrev.onclick = function() { prev(); };
-    if (btnNext) btnNext.onclick = function() { next(); };
+    function prev() { changeSlide(-1); }
+    function next() { changeSlide(1); }
+
+    /* Button listeners via onclick attributes in HTML — no addEventListener needed */
 
     /* Fullscreen */
     var fsBtn = document.querySelector('.fullscreen-trigger');
     if (fsBtn) {
-        fsBtn.onclick = function() {
+        fsBtn.addEventListener('click', function() {
             var el = document.documentElement;
             if (!document.fullscreenElement && !document.webkitFullscreenElement) {
                 if (el.requestFullscreen) el.requestFullscreen();
@@ -1580,53 +1444,36 @@ h1 .period {
                 if (document.exitFullscreen) document.exitFullscreen();
                 else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
             }
-        };
+        });
     }
 
-    /* Swipe — skip touches originating in footer.
-       Note: SVG elements have className as SVGAnimatedString (not a string),
-       so we use getAttribute('class') which works for both HTML and SVG. */
-    var startX = 0;
-    var startY = 0;
-
+    /* Swipe */
+    var swipeThreshold = Math.max(50, window.innerWidth * 0.04);
+    window.addEventListener('resize', function() { swipeThreshold = Math.max(50, window.innerWidth * 0.04); });
+    var startX = 0, startY = 0;
     document.addEventListener('touchstart', function(e) {
         if (!e.touches || !e.touches[0]) return;
-        var node = e.target;
-        while (node && node !== document.body) {
-            var cls = (node.getAttribute && node.getAttribute('class')) || '';
-            if (cls.indexOf('footer-bar') !== -1) {
-                startX = 0;
-                startY = 0;
-                return;
-            }
-            node = node.parentElement;
-        }
         startX = e.touches[0].clientX;
         startY = e.touches[0].clientY;
     }, {passive: true});
-
     document.addEventListener('touchend', function(e) {
-        if (startX === 0 && startY === 0) return;
         if (!e.changedTouches || !e.changedTouches[0]) return;
         var diffX = startX - e.changedTouches[0].clientX;
         var diffY = startY - e.changedTouches[0].clientY;
-        if (Math.abs(diffX) > 50 && Math.abs(diffX) > Math.abs(diffY)) {
-            if (diffX > 0) next(); else prev();
+        if (Math.abs(diffX) > swipeThreshold && Math.abs(diffX) > Math.abs(diffY)) {
+            changeSlide(diffX > 0 ? 1 : -1);
         }
-        startX = 0;
-        startY = 0;
     }, {passive: true});
 
-    /* Keyboard — with throttle for fast key repeat */
-    var keyLock = false;
+    /* Keyboard */
+    var navThrottled = false;
     document.addEventListener('keydown', function(e) {
-        if (keyLock) return;
-        if (e.key === 'ArrowRight' || e.keyCode === 39) { next(); keyLock = true; }
-        if (e.key === 'ArrowLeft' || e.keyCode === 37) { prev(); keyLock = true; }
-        if (keyLock) setTimeout(function() { keyLock = false; }, 200);
+        if (navThrottled) return;
+        if (e.key === 'ArrowRight') { next(); navThrottled = true; }
+        if (e.key === 'ArrowLeft') { prev(); navThrottled = true; }
+        if (navThrottled) { setTimeout(function() { navThrottled = false; }, 200); }
     });
 
-    /* Hash navigation */
     window.addEventListener('hashchange', function() {
         var n = readHash();
         if (n !== current) show(n);
@@ -1634,9 +1481,8 @@ h1 .period {
 
     show(readHash());
 
-    /* Expose globally */
-    window.SXE = { prev: prev, next: next, show: show };
-
+    /* Expose globally for inline onclick fallback */
+    return { prev: prev, next: next, show: show };
 })();
 </script>
 </body>
